@@ -6,6 +6,7 @@ for i in range(n):
     nums.append(num1)
 
 nums.sort()
-maior = nums[-1] 
-menor = nums[0]
-print(f"Menor: {menor}\nMaior: {maior}")
+big = nums[-1] 
+little = nums[0]
+print(f"Smaller number: {little}")
+print(f"Higher number: {big}")
