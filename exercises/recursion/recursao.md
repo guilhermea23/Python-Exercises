@@ -3,6 +3,7 @@ Resumo de Recursão
 Todos os algoritmos recursivos devem obedecer três leis importantes: 
     
     * Um algoritmo recursivo deve possuir um caso base 
+    
     ~~~python (if numero >= 0) 
     * Um algoritmo recursivo deve modificar o seu estado e se aproximar do caso base
     >>> (numero - 1) 
