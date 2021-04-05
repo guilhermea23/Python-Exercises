@@ -1,5 +1,3 @@
 from math import pow
-x,y = input().split()
-x = int(x)
-y = int(y)
+x,y = map(int,input().split())
 print(pow(x,y))
