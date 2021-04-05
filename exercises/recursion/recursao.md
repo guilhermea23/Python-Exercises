@@ -1,9 +1,7 @@
-Resumo de Recursão
-
+#### __Resumo de Recursão__
 Todos os algoritmos recursivos devem obedecer três leis importantes: 
     
     * Um algoritmo recursivo deve possuir um caso base 
-    
     >>>(if numero >= 0)
     * Um algoritmo recursivo deve modificar o seu estado e se aproximar do caso base
     >>> (numero - 1) 
@@ -11,3 +9,7 @@ Todos os algoritmos recursivos devem obedecer três leis importantes:
     >>>ate_zero(numero - 1))
 
 A ideia é simples, dado um problema cuja estrutura se repete, basta replicar o processo de solução para uma versão um pouco menor do mesmo problema, até que se chegue a uma versão tão pequena, tão simples que você já sabe a resposta e, portanto, não precisa continuar computando. 
+
+~~~python
+Esta é uma linha de código em HTML.
+~~~
