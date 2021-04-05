@@ -1,4 +1,4 @@
-_#### __Resumo de Recursão__
+#### ___Resumo de Recursão__
 Todos os algoritmos recursivos devem obedecer três leis importantes: 
     
     * Um algoritmo recursivo deve possuir um caso base 
