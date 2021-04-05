@@ -1,4 +1,4 @@
-#### __Resumo de Recursão__
+_#### __Resumo de Recursão__
 Todos os algoritmos recursivos devem obedecer três leis importantes: 
     
     * Um algoritmo recursivo deve possuir um caso base 
@@ -20,5 +20,5 @@ ate_zero((numero-1))
 ~~~
     
 
-A ideia é simples, dado um problema cuja estrutura se repete, basta replicar o processo de solução para uma versão um pouco menor do mesmo problema, até que se chegue a uma versão tão pequena, tão simples que você já sabe a resposta e, portanto, não precisa continuar computando. 
+A ideia é simples, dado um problema cuja estrutura se repete, basta replicar o processo de solução para uma versão um pouco menor do mesmo problema, até que se chegue a uma versão tão pequena, tão simples que você já sabe a resposta e, portanto, não precisa continuar computando.
 
