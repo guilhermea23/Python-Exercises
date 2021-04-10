@@ -5,8 +5,6 @@ popB = int(popB)
 cresA = float(cresA)
 cresB = float(cresB)
 
-if (popA < popB):
-    popA = popA - (popA * cresA)
-    popB = popB - (popB * cresB)
-    tempo = (cresA - cresB)*(popB-popA)
-    print(int(tempo))
+if popA < popB:
+    tempo = (popB - popA)//(cresB-cresA)
+print(int(tempo))

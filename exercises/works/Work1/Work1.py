@@ -100,10 +100,12 @@ def tarefa2(listaDeAtrObj,qtd_blocks):
 def tarefa3(lista1,lista2):
     x_medio = sum(lista1)/len(lista1)
     y_medio = sum(lista2)/len(lista2)
-    largura_media = 0
-    altura_media = 0 #tem que arrumar a altura e largura media
-    return f'{x_medio:.0f} {y_medio:.0f}'
+    largura = 0
+    altura = 0
+    return f'{x_medio:.0f} {y_medio:.0f} {largura:.0f} {altura:.0f}'
     
+def tarefa4(lista1,lista2):
+    pass
 
 ### Programa
 tarefa,qtd_blocks = map(int,input().split())
