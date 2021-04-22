@@ -1,4 +1,4 @@
 nome = input()
-alphas = []
+print("Letter -> Value in table ASCII")
 for letra in nome:
-    print(ord(letra))
+    print(letra,"->",ord(letra))
