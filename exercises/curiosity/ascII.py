@@ -1,4 +1,4 @@
 nome = input()
+print("Letter -> Value in table ASCII")
 for letra in nome:
-    print("Letter -> Value in table ASCII")
     print(letra,"->",ord(letra))
