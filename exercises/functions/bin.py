@@ -1,6 +1,6 @@
 def binario(num):
   num = int(num)
-  return print(bin(num))
+  print(bin(num))
 
 
 numbers = [x for x in input().split()]
