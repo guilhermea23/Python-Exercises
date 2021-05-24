@@ -1,20 +1,10 @@
-def maior_norma(l1,l2):
-    sum1=0
-    sum2=0
-    for e in l1:
-        sum1+=e
-    for el in l2:
-        sum2+=el
-    
-    if sum1>sum2:
-        print("PRIMEIRO")
-    elif sum2<=sum1:
-        print("SEGUNDO")
+def highest_standard(l1,l2):    
+    if sum(l1)>sum(l2):
+        print("FIRST")
+    else:
+        print("SECOND")
 
-i=0
-l1=[]
-l2=[]
 l1 = [int(x) for x in input().split()]
 l2=[int(z) for z in input().split()]
     
-maior_norma(l1,l2)
+highest_standard(l1,l2)
