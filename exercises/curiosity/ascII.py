@@ -1,4 +1,4 @@
-nome = input()
+letters = [x for x in input().split()]
 print("Letter -> Value in table ASCII")
-for letra in nome:
+for letter in letters:
     print(letra,"->",ord(letra))
